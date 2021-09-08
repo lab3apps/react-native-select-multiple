@@ -173,7 +173,6 @@ export default class SelectMultiple extends Component {
 
     if (useCheckboxSourceFromItem) {
       checkboxSource = row.item.checkboxSource;
-      selectedCheckboxSource = row.item.selectedCheckboxSource;
     }
 
     if (row.item.selected) {
